@@ -1,0 +1,25 @@
+{
+  "icons": {
+    "16": "./icon-16-2.png",
+    "32": "./icon-32-2.png",
+    "128": "./icon-128-2.png"
+},
+  "name": "Cute Pets! (Ash)",
+  "version": "3",
+  "manifest_version": 2,
+  "description": "A extension to place cute pet photos! Version for Ash",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "CUTENESS :)"
+  },
+  "permissions": [
+    "https://*/*",
+    "http://*/*",
+    "tabs"
+  ]
+}
