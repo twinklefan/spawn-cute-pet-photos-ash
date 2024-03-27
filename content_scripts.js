@@ -6,7 +6,11 @@
     const images = [];
     for (i = 25; i < max; i++) {
         images.push("https://raw.githubusercontent.com/Twinklefan2/cute-images/main/img" + i + ".png")
+    };
+	for (i = 79; i < 103; i++) {
+        images.push("https://raw.githubusercontent.com/Twinklefan2/cute-images/main/img" + i + ".png")
     }
+	
 
     drawImage(images)
 })();
